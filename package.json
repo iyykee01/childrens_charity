@@ -1,0 +1,29 @@
+{
+  "name": "charity_for_children",
+  "version": "1.0.0",
+  "description": "charity for children",
+  "main": "app.js",
+  "scripts": {
+    "test": "\"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iyykee01/childrens_charity.git"
+  },
+  "keywords": [
+    "children"
+  ],
+  "author": "iykeshey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iyykee01/childrens_charity/issues"
+  },
+  "homepage": "https://github.com/iyykee01/childrens_charity#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "path": "^0.12.7",
+    "stripe": "^4.15.0"
+  }
+}
