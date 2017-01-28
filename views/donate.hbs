@@ -1,0 +1,52 @@
+<header>
+              <div id="header">
+                  <a class="logo">Chidren's Charity</aa>
+                  <nav>
+                     <a class="menu-icon"></a>
+                      <ul>
+                          <li><a href="/">HOME</a></li>
+                          <li><a href="/" class="next">DONATE</a></li>
+                      </ul>
+                  </nav>
+              </div>
+          </header>
+
+<div id="forms">
+    <h1>Your Donations Are Highly Appreciated</h1>
+    
+    <h1 id="error" style="color: red" ></h1>
+    
+<form action="/checkout" method="post" id="checkout-form">
+<ul class="form-style-1">
+    
+    <li>
+        <label>Amout<span class="required">*</span></label>
+        <input type="text"  id="amount" name="amount" required />
+    </li>
+    
+     <li>
+        <label>Card Holder Name<span class="required">*</span></label>
+        <input type="text" name="field2" id="name" required />
+    </li>
+    
+    <li>
+        <label>Card Number<span class="required">*</span></label>
+        <input type="text" name="field3" id="card-number" required />
+    </li>
+    
+    <li><label>Card Expiration Date <span class="required">*</span></label><input type="text" name="field4" class="field-divided" placeholder="Month" id="expiration-month" />&nbsp;<input type="text" name="field5" class="field-divided" placeholder="Year" id="expiration-year" />
+    </li>
+   
+    <li>
+        <label>Card CVC<span class="required">*</span></label>
+        <input type="text" name="field6" class="field-long" required id="cvc" />
+    </li>
+    
+    <li>
+        <input type="submit" value="DONATE" id="button"/>
+    </li>
+</ul>
+</form>
+      
+</div>
+<script src="javascript/stripe.js"></script>
