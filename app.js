@@ -31,11 +31,6 @@ app.get('/donate', function(req, res){
     res.render('donate', {})
 });
 
-app.post('/amount', function(req, res, next){
-   var amount = req.body.amount;
-    res.redirect('/donate')
-})
-
 
     
 app.post('/checkout', function(req, res){
